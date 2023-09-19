@@ -1,0 +1,21 @@
+{
+  "name": "prompteng",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node build/index.js",
+    "dev": "tsc-watch  --onSuccess \"npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsc-watch": "^6.0.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "langchain": "^0.0.151"
+  }
+}
